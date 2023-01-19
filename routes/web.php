@@ -12,6 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view("home", [
+        'name' => 'Giorgia',
+        'surname' => 'Venturelli',
+        'classe' => 'Classe 79'
+    ]);
 });
-
